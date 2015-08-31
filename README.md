@@ -1,4 +1,4 @@
-# Computing Power for LRT to Detect Measurement Non-Invariance 
+# Computing Power for Detecting Measurement Non-Invariance 
 2015 Mark Lai (mark.lai@uc.edu), University of Cincinnati, OH, USA
 
 Use at your own risk
