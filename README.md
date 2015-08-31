@@ -11,11 +11,11 @@ Last modified: August 29, 2015
 Required packages: lavaan, MASS
 
 How to use:
-    1. Input parameters under the `User specification` section
-    2. Run the whole script in R
+1. Input parameters under the `User specification` section
+2. Run the whole script in R
 
 Assumptions:
-    + All observed variables are standardized (variance = 1)
-    + The items are unidimensional (one factor model)
-    + The latent factor has unit variance for both groups
-    + Multivariate normality
++ All observed variables are standardized (variance = 1)
++ The items are unidimensional (one factor model)
++ The latent factor has unit variance for both groups
++ Multivariate normality
