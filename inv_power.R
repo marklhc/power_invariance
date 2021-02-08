@@ -79,7 +79,7 @@ mu_r <- tau_r + Lambda_r %*% as.matrix(kappa_r)
 mu_f <- tau_f + Lambda_r %*% as.matrix(kappa_f)
 
 # Generate sample covariance for focal group (with metric invariance)
-S_f <- rWishart(MCsample, df = N_f, Sigma = Sigma_r) / (N_r - 1)
+S_f <- rWishart(MCsample, df = N_f, Sigma = Sigma_r) / (N_f - 1)
 colnames(S_f) <- varnames
 
 # Generate sample mean vectors for both groups
